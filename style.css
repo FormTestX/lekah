@@ -30,6 +30,7 @@ select {
 	height: 20px;
 	outline: none;
 	color: black;
+        border-radius: 8px;
 }
 
 .jns {
@@ -39,6 +40,7 @@ select {
 .jns input {
 	width: 75%;
 	outline: none;
+        border-radius: 8px;
 }
 
 .menus button{
@@ -63,4 +65,8 @@ select {
 	height: 30px;
 	margin: 10px 0 30px 5px;
 	outline: none;
+}
+
+textarea {
+        width: 85%;
 }
