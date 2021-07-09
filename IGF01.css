@@ -1,10 +1,132 @@
+@media screen and (max-width: 1430px) {
 		.header {
 			position: fixed;
 			left: 0;
 			top: 0;
 			right: 0;
 			height: 75px;
-			background-color: #f7a71b;
+			background-color: #71cf61;
+			color: white;
+			border-bottom: 1px solid #d9e3d8;
+
+		}
+
+		.header > h3 {
+			text-align: left;
+			margin-left: 20px;
+			display: inline-block;
+		}
+
+		.header > h5 {
+			text-align: right;
+			margin-right: 20px;
+			margin-left: 10px;
+			display: inline-block;
+		}
+
+		#saveHeader {
+			height: 35px;
+			padding: 20px;
+		}
+
+		.inputtxt {
+			margin: auto;
+			margin-top: 15px;
+			margin-left: 10%;
+			width: 80%;
+			outline: none;
+			height: 18%;
+			border: 1px solid gray;
+			border-radius: 5px;
+			padding: 9px;
+			margin-left: 25px;
+			text-transform: uppercase;
+			background-color: ghostwhite;
+			color: #828e8f;
+		}
+
+		.inputtxt:focus {
+			color: black;
+		}
+
+		.titleBorder {
+			border: 1px solid #c4c4c4;
+			border-top: 13px solid #71cf61;
+			background-color: whitesmoke;
+			background-color: whitesmoke;
+			width: 80%;
+			margin: auto;
+			height: auto;
+			border-radius: 7px;
+			margin-bottom: 20px;
+			margin-top: 20px;
+		}
+
+		.titleBorder > h2 {
+			margin-left: 20px;
+		}
+
+		.titleBorder > p {
+			margin-left: 20px;
+		}
+
+		.borderpad {
+			width: 80%;
+			margin: auto;
+			height: 130px;
+			border-radius: 7px;
+			background-color: white;
+			border: 1px solid #c4c4c4;
+			padding-top: 8px;
+		}
+
+		.inputtxt:focus {
+			border-color: black;
+			margin-left: 25px;
+		}
+
+		.lbl {
+			text-align: left;
+			padding: 20px;
+			margin-left: 10px;
+			padding-top: 20px;
+		}
+
+		body {
+			font-family: Helvetica;
+			background-color: #def2da;
+		}
+
+		#butn {
+			padding: 10px;
+			width: 80px;
+			margin-left: 10%;
+			margin-top: 20px;
+			text-align: center;
+			background-color: #71cf61;
+			color: ghostwhite;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}		
+
+		#butn:hover {
+			background-color: #69db56;
+		}
+
+	}
+
+-----------------------------------------------// PHONE DESIGN //--------------------------------------------------------
+
+
+@media screen and (min-width: 1430px) {
+		.header {
+			position: fixed;
+			left: 0;
+			top: 0;
+			right: 0;
+			height: 75px;
+			background-color: #71cf61;
 			color: white;
 
 		}
@@ -30,7 +152,7 @@
 		.inputtxt {
 			margin: auto;
 			margin-top: 15px;
-			margin-left: 20px;
+			margin-left: 10%;
 			width: 75%;
 			outline: none;
 			height: 18%;
@@ -48,11 +170,11 @@
 		}
 
 		.titleBorder {
-			border: 1px solid #c4c4c4;
-			border-top: 13px solid #f7a71b;
+			border: 1px solid #acd1a5;
+			border-top: 13px solid #71cf61;
 			background-color: whitesmoke;
 			background-color: whitesmoke;
-			width: 100%;
+			width: 90%;
 			margin: auto;
 			height: auto;
 			border-radius: 7px;
@@ -69,7 +191,7 @@
 		}
 
 		.borderpad {
-			width: 100%;
+			width: 90%;
 			margin: auto;
 			height: 130px;
 			border-radius: 7px;
@@ -92,5 +214,7 @@
 
 		body {
 			font-family: Helvetica;
-			background-color: #f0dec7;
+			background-color: #def2da;
 		}
+
+	}
